@@ -1,0 +1,131 @@
+/* Set basic styles for the body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #EAC591;
+    color: #000; /* Black text */
+}
+
+/* Styles for the header */
+header {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    padding: 10px;
+}
+
+/* Container for the logo image */
+.logo-container {
+    display: flex;
+    font-size: 30px;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 20px;
+}
+
+/* Style for the logo image */
+.logo {
+    width: 92px;
+    height: 92px;
+    margin-left: 20px;
+}
+
+/* Styles for the navigation bar */
+nav {
+    background-color: #177e89; /* Set the menu bar background color */
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 25px;
+}
+
+nav a:hover {
+    background-color: #79b9c0;
+}
+
+/* Remove default list styles for the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for each navigation item */
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #faffff;
+}
+
+nav ul li a:active {
+    color: #2a84b8; /* Change to a different color when the link is clicked */
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    padding: 2rem 0;
+}
+
+/* Section heading styles */
+section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Styles for gallery items */
+.gallery-container {
+    display: flex;
+    justify-content: center; /* Center the gallery items */
+    gap: 20px; /* Add space between the gallery items */
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+    padding: 20px;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.gallery-item video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensure the video does not exceed its container's width */
+}
+
+/* Styles for the footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Remove default margin for footer paragraph */
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea Gate Resort</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        /* Ensure body and html take up full height */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Make the main content grow to push the footer to the bottom */
+        .main-content {
+            flex: 1;
+        }
+
+        /* Navbar custom styles */
+        .navbar-custom {
+            background-color: #177e89;
+        }
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .nav-link {
+            color: #fff;
+        }
+        .navbar-custom .nav-link.active {
+            color: #f5f5f5;
+        }
+        .navbar-custom .nav-link:hover {
+            color: #007bff;
+        }
+
+        /* Footer styles */
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Custom styles */
+        #zuz {
+            text-align: center;
+            border: 5px solid white;
+            border-radius: 4px;
+            background-color: #177e89;
+            font-size: 26px;
+            padding: 20px;
+            color: white;
+        }
+        .email, .link {
+            color: #97dee6;
+        }
+        .email:hover, .link:hover {
+            color: white;
+        }
+
+        .p1 {
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sea Gate Resort</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Findus.html">Find Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content centered with a container -->
+    <div class="container mt-4 main-content">
+        <h2 class="text-center" style="font-size: 40px;">About Sea Gate Resort</h2>
+  
+        <div class="p1 text-center">
+            <p>Welcome to Sea Gate Resort, your premier destination for relaxation and luxury at the heart of the Dead Sea. Opened in 2024, our resort combines breathtaking views, world-class amenities, and unmatched comfort to offer a truly unforgettable experience.</p>
+            <p>At Sea Gate Resort, we pride ourselves on providing an exceptional stay with our modern accommodations, serene spa treatments, and exquisite dining options. Our dedicated team is committed to ensuring that every guest enjoys the perfect blend of relaxation and adventure.</p>
+            <p>Whether you're looking to unwind by the pool, indulge in our rejuvenating spa services, or explore the unique attractions of the Dead Sea, Sea Gate Resort is the ideal destination for your getaway.</p>
+            <p>We invite you to discover the beauty of our resort and create lasting memories with us. Thank you for choosing Sea Gate Resort, where luxury meets tranquility.</p>
+        </div>
+        <br><br><br>
+
+        <div id="zuz" class="text-center">
+            <p>Founder and CEO: <a href="https://jo.linkedin.com/in/amin-al-sammar-800728280?trk=public_post_feed-actor-name&original_referer=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" class="link">Amin Al Sammar</a> | +00962786397103 | <a href="mailto:as305@SeaGate.com" class="email">as305@SeaGate.com</a></p>
+            <p>Staff and Public Relations Manager: <a href="https://jo.linkedin.com/in/zeina-al-hashaikah-791346290?trk=public_profile_browsemap-profile" target="_blank" class="link">Zeina Al Hashaikah</a> | +00962795219571 | <a href="mailto:zealhash@SeaGate.com" class="email">zealhash@SeaGate.com</a></p>
+            <p>Human Resources: <span style="color:#97dee6;text-decoration: underline;">Omar Sweilem</span> | +00962798530742 | <a href="mailto:osweilem@SeaGate.com" class="email">osweilem@SeaGate.com</a></p>
+        </div>
+        <br><br><br><br>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <p>&copy; 2024 Sea Gate. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
